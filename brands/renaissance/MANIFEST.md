@@ -1,0 +1,182 @@
+# Renaissance / YADRO — MANIFEST
+
+Источник истины: `scripts/baseline.json` (ключ `renaissance`).
+
+## HTML files
+
+- `capital-01-intro.html`
+- `capital-02-achieve.html`
+- `child-01-intro.html`
+- `child-02-achieve.html`
+- `cover.html`
+- `flat-01-intro.html`
+- `flat-02-achieve.html`
+- `moon-01-intro.html`
+- `moon-02-achieve.html`
+- `passive-01-intro.html`
+- `passive-02-pds-steps.html`
+- `pension-01-intro.html`
+- `pension-02-state-pension.html`
+- `pension-03-plan.html`
+- `tail-01-portfolio.html`
+- `tail-02-summary-lumpsum.html`
+- `tail-03-summary-monthly.html`
+- `tail-04-funds.html`
+- `tail-05-alfa-npf.html`
+- `tail-06-inflation.html`
+- `tail-07-schedule-table.html`
+- `tail-08-risk-inflation.html`
+- `tail-09-risk-npf-bankruptcy.html`
+- `tail-10-risk-ofz-default.html`
+- `tail-11-risk-stocks.html`
+- `tail-12-risk-bonds.html`
+
+## Placeholders `{{...}}`
+
+- `{{allocation_donut_total}}` — first seen in `tail-02-summary-lumpsum.html`
+- `{{allocation_instrument}}` — first seen in `tail-02-summary-lumpsum.html`
+- `{{allocation_rate}}` — first seen in `tail-02-summary-lumpsum.html`
+- `{{allocation_share_pct}}` — first seen in `tail-02-summary-lumpsum.html`
+- `{{allocation_sum}}` — first seen in `tail-02-summary-lumpsum.html`
+- `{{base_part_future}}` — first seen in `pension-02-state-pension.html`
+- `{{base_part_today}}` — first seen in `pension-02-state-pension.html`
+- `{{capital_growth_total}}` — first seen in `passive-02-pds-steps.html`
+- `{{chart_date_end}}` — first seen in `pension-01-intro.html`
+- `{{chart_date_start}}` — first seen in `pension-01-intro.html`
+- `{{chart_own_funds}}` — first seen in `capital-01-intro.html`
+- `{{chart_pension}}` — first seen in `pension-02-state-pension.html`
+- `{{chart_projected_income}}` — first seen in `capital-01-intro.html`
+- `{{chart_salary}}` — first seen in `pension-02-state-pension.html`
+- `{{chart_y_max}}` — first seen in `pension-01-intro.html`
+- `{{client_income_monthly}}` — first seen in `capital-01-intro.html`
+- `{{cover_title}}` — first seen in `cover.html`
+- `{{extra_income}}` — first seen in `capital-02-achieve.html`
+- `{{final_pension_future}}` — first seen in `pension-02-state-pension.html`
+- `{{final_pension_today}}` — first seen in `pension-02-state-pension.html`
+- `{{fund1_description}}` — first seen in `tail-04-funds.html`
+- `{{fund1_ipo_text}}` — first seen in `tail-04-funds.html`
+- `{{fund1_name}}` — first seen in `tail-04-funds.html`
+- `{{fund1_stat1}}` — first seen in `tail-04-funds.html`
+- `{{fund1_stat2}}` — first seen in `tail-04-funds.html`
+- `{{fund1_stat3}}` — first seen in `tail-04-funds.html`
+- `{{fund1_yield_value}}` — first seen in `tail-04-funds.html`
+- `{{fund1_yield_year}}` — first seen in `tail-04-funds.html`
+- `{{fund2_benefit_pct}}` — first seen in `tail-04-funds.html`
+- `{{fund2_description}}` — first seen in `tail-04-funds.html`
+- `{{fund2_history_years}}` — first seen in `tail-04-funds.html`
+- `{{fund2_insurance_cap}}` — first seen in `tail-04-funds.html`
+- `{{fund2_license}}` — first seen in `tail-04-funds.html`
+- `{{fund2_name}}` — first seen in `tail-04-funds.html`
+- `{{fund2_yield_year}}` — first seen in `tail-04-funds.html`
+- `{{fund3_description}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_group}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_name}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_point1}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_point2}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_point3}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_point4}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_point5}}` — first seen in `tail-05-alfa-npf.html`
+- `{{fund3_point6}}` — first seen in `tail-05-alfa-npf.html`
+- `{{goal1_forecast_inflation}}` — first seen in `pension-01-intro.html`
+- `{{goal1_forecast_today}}` — first seen in `pension-01-intro.html`
+- `{{goal1_replacement_rate}}` — first seen in `pension-01-intro.html`
+- `{{goal1_start_year}}` — first seen in `pension-01-intro.html`
+- `{{goal1_title}}` — first seen in `pension-01-intro.html`
+- `{{goal1_title_full}}` — first seen in `pension-02-state-pension.html`
+- `{{goal2_forecast_inflation}}` — first seen in `pension-01-intro.html`
+- `{{goal2_forecast_inflation_full}}` — first seen in `pension-03-plan.html`
+- `{{goal2_forecast_today}}` — first seen in `pension-01-intro.html`
+- `{{goal2_inflation_rate}}` — first seen in `pension-03-plan.html`
+- `{{goal2_start_year}}` — first seen in `pension-01-intro.html`
+- `{{goal2_target_date}}` — first seen in `pension-03-plan.html`
+- `{{goal2_title}}` — first seen in `pension-01-intro.html`
+- `{{goal2_title_full}}` — first seen in `pension-03-plan.html`
+- `{{goal_forecast}}` — first seen in `capital-01-intro.html`
+- `{{goal_forecast_inflation}}` — first seen in `passive-02-pds-steps.html`
+- `{{goal_inflation_rate}}` — first seen in `passive-02-pds-steps.html`
+- `{{goal_target_date}}` — first seen in `capital-02-achieve.html`
+- `{{goal_target_year}}` — first seen in `capital-01-intro.html`
+- `{{goal_title}}` — first seen in `capital-01-intro.html`
+- `{{goal_title_full}}` — first seen in `capital-02-achieve.html`
+- `{{gov_cofinancing}}` — first seen in `capital-02-achieve.html`
+- `{{gov_cofinancing_2025}}` — first seen in `passive-02-pds-steps.html`
+- `{{infl_row1_inflation}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row1_period}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row1_yield}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row2_inflation}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row2_period}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row2_yield}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row3_inflation}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row3_period}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row3_yield}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row4_inflation}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row4_period}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row4_yield}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row5_inflation}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row5_period}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row5_yield}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row6_inflation}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row6_period}}` — first seen in `tail-06-inflation.html`
+- `{{infl_row6_yield}}` — first seen in `tail-06-inflation.html`
+- `{{inflation_intro_text}}` — first seen in `tail-06-inflation.html`
+- `{{inflation_rate}}` — first seen in `capital-01-intro.html`
+- `{{monthly_allocation_instrument}}` — first seen in `tail-03-summary-monthly.html`
+- `{{monthly_allocation_rate}}` — first seen in `tail-03-summary-monthly.html`
+- `{{monthly_allocation_share_pct}}` — first seen in `tail-03-summary-monthly.html`
+- `{{monthly_allocation_sum}}` — first seen in `tail-03-summary-monthly.html`
+- `{{monthly_donut_total}}` — first seen in `tail-03-summary-monthly.html`
+- `{{ndfl_rate}}` — first seen in `passive-02-pds-steps.html`
+- `{{next_contribution}}` — first seen in `tail-01-portfolio.html`
+- `{{next_months_contribution}}` — first seen in `passive-02-pds-steps.html`
+- `{{npf_yield_last_year}}` — first seen in `tail-01-portfolio.html`
+- `{{npf_yield_year}}` — first seen in `tail-01-portfolio.html`
+- `{{own_savings}}` — first seen in `capital-02-achieve.html`
+- `{{passive_income_inflation}}` — first seen in `tail-01-portfolio.html`
+- `{{passive_income_rate}}` — first seen in `tail-01-portfolio.html`
+- `{{passive_income_today}}` — first seen in `tail-01-portfolio.html`
+- `{{pds_gov_addon_year}}` — first seen in `passive-02-pds-steps.html`
+- `{{pds_insurance_cap}}` — first seen in `passive-02-pds-steps.html`
+- `{{pds_tax_deduction_cap}}` — first seen in `passive-02-pds-steps.html`
+- `{{pds_tax_deduction_pct}}` — first seen in `passive-02-pds-steps.html`
+- `{{pds_yield_rate}}` — first seen in `capital-02-achieve.html`
+- `{{plan_cofinancing_year}}` — first seen in `capital-01-intro.html`
+- `{{plan_initial_contribution}}` — first seen in `capital-01-intro.html`
+- `{{plan_monthly_contribution}}` — first seen in `capital-01-intro.html`
+- `{{plan_review_months}}` — first seen in `passive-02-pds-steps.html`
+- `{{plan_tax_deduction_year}}` — first seen in `capital-01-intro.html`
+- `{{point_cost_future}}` — first seen in `pension-02-state-pension.html`
+- `{{point_cost_today}}` — first seen in `pension-02-state-pension.html`
+- `{{points_per_year}}` — first seen in `pension-02-state-pension.html`
+- `{{points_total}}` — first seen in `pension-02-state-pension.html`
+- `{{portfolio_intro_text}}` — first seen in `tail-01-portfolio.html`
+- `{{portfolio_yield}}` — first seen in `tail-01-portfolio.html`
+- `{{projected_total}}` — first seen in `tail-01-portfolio.html`
+- `{{projected_year}}` — first seen in `tail-01-portfolio.html`
+- `{{replacement_rate}}` — first seen in `pension-02-state-pension.html`
+- `{{report_date}}` — first seen in `cover.html`
+- `{{result_total}}` — first seen in `capital-02-achieve.html`
+- `{{result_year}}` — first seen in `capital-02-achieve.html`
+- `{{risk_share_pct}}` — first seen in `tail-01-portfolio.html`
+- `{{salary_monthly}}` — first seen in `pension-02-state-pension.html`
+- `{{schedule_intro_text}}` — first seen in `tail-07-schedule-table.html`
+- `{{schedule_row1_contribution}}` — first seen in `tail-07-schedule-table.html`
+- `{{schedule_row2_contribution}}` — first seen in `tail-07-schedule-table.html`
+- `{{schedule_row3_contribution}}` — first seen in `tail-07-schedule-table.html`
+- `{{schedule_row4_contribution}}` — first seen in `tail-07-schedule-table.html`
+- `{{step1}}` — first seen in `capital-02-achieve.html`
+- `{{step2}}` — first seen in `capital-02-achieve.html`
+- `{{step3}}` — first seen in `capital-02-achieve.html`
+- `{{step4}}` — first seen in `capital-02-achieve.html`
+- `{{step5}}` — first seen in `capital-02-achieve.html`
+- `{{tax_deduction}}` — first seen in `capital-02-achieve.html`
+- `{{tax_deduction_2026}}` — first seen in `passive-02-pds-steps.html`
+- `{{withdrawal_age_f}}` — first seen in `tail-01-portfolio.html`
+- `{{withdrawal_age_m}}` — first seen in `tail-01-portfolio.html`
+- `{{withdrawal_years}}` — first seen in `tail-01-portfolio.html`
+
+## Notes
+
+- Do not rename existing placeholders without PFP approval.
+- New placeholders require backend mapper changes before they appear in PDF.
+- HTML comments at the top of each file document expected demo values.
+

@@ -1,0 +1,9 @@
+{
+  "name": "pfp-report-templates",
+  "private": true,
+  "description": "Partner-facing HTML templates for PFP PDF reports",
+  "scripts": {
+    "check": "node scripts/check-templates.js",
+    "baseline": "node scripts/extract-baseline.js"
+  }
+}
